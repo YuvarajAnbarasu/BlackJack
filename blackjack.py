@@ -24,7 +24,7 @@ class BlackjackGUI(tk.Tk):
         self.losses = 0
         self.draws = 0
 
-        custom_image_path = "logo.png"  # Replace this with the actual path to your custom image
+        custom_image_path = "logo.png" 
         self.bg_image = tk.PhotoImage(file=custom_image_path)
 
         self.home_frame = tk.Frame(self, bg="#222222")
